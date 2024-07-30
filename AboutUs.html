@@ -32,10 +32,11 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg ">
-      
-        <a class="navbar-brand" href="index.html"><img src="img/Sanderson_Spartans.png" alt="">Sanderson Athletic Club</a>
-        <button class="navbar-toggler custom-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/Sanderson_Spartans.png" alt="">Sanderson Athletic Club
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -43,30 +44,61 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="AboutUs.html">About</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="AboutUs.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="AboutUs.html">About Us</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="AboutUs.html#membership">Membership</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="AboutUs.html#concessions">Concessions</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="AboutUs.html#teamParent">Team Parent</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Individual Tickets</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Volunteering</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Join Club</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="AboutUs.html#socialMedia">Social Media</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="B.O.D.html">Board</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Sponsor.html">Sponsors</a>
+                    <a class="nav-link" href="Sponsor.html">Sponsors</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Sports.html">Sports</a>
-                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Team.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Team
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Team.html">All Sports</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Team.html#fallsports">Fall Sports</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Team.html#wintersports">Winter Sports</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Team.html#springsports">Spring Sports</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Events</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://sandersonathleticzone.com/" target="_blank">Teams</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://sanderson-athletic-club.square.site/" target="_blank">Merch</a>
-            </li>
+                    <a class="nav-link" href="https://sandersonathleticzone.com/" target="_blank">Athletic Dept</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">Merch Coming Soon</a>
+                </li>
             </ul>
         </div>
     </nav>
+    
   <!-- Main Content -->
   <div class="main">
     <div class="container">
@@ -87,17 +119,15 @@
         <div class="container mt-5">
             <div class="row ">
                 <!-- Text Section -->
-                <div class="col-md-8 ">
-                    <h1>About Us</h1>
+                <div class="col-md-12 ">
+                    <h1 style="color: #ff0000; font-size: 10rem;">About Us</h1>
                     <p>The Sanderson High School Athletic Club is dedicated to fostering a spirit of sportsmanship, teamwork, and excellence among our student-athletes. We strive to support and enhance the athletic experience for all students, encouraging them to achieve their personal best both on and off the field. Join us in celebrating the hard work, dedication, and achievements of our athletes. Go Spartans! </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="img/SAC.png" alt="">
-                </div>
+                
             </div>
         </div>
         <div class="container mt-5">
-            <div class="row ">
+            <div class="row " id="membership">
                 <div class="col-md-5">
                     <img style="width: 400px;" src="img/Sponsorstag.jpg" alt="">
                 </div>
@@ -105,7 +135,7 @@
                 <div class="col-md-7 ">
                     <h1>Membership</h1>
                     <p>Join the Sanderson community today and experience the benefits of our exclusive membership. Our members enjoy access to premium facilities, special events, and discounts on programs. Whether you're a student, alumni, or community member, becoming a part of Sanderson means you’re supporting a tradition of excellence and fostering a vibrant, connected community. Sign up now to be a part of something special!</p>
-                    <button type="button" class="Sponsor">Sponsor Now</button>
+                    <button type="button" onclick="location.href='Sponsor.html';" class="Sponsor">Sponsor Now</button>
 
                 </div>
                 
@@ -113,7 +143,7 @@
             </div>
         </div>
         <div class="container mt-5">
-            <div class="row ">
+            <div class="row" id="concessions">
                 <!-- Text Section -->
                 <div class="col-md-8 ">
                     <h1>Concessions</h1>
@@ -125,7 +155,7 @@
             </div>
         </div>
         <div class="container mt-5">
-            <div class="row ">
+            <div class="row " id="teamParent">
                 <!-- Text Section -->
                 <div class="col-md-5">
                     <img style="width: 400px; " src="img/TP.png" alt="">
@@ -195,7 +225,7 @@
         </div>
     </div>
      -->
-     <div class="container">
+     <div class="container" id="socialMedia">
         <h1 class="social-media-heading mt-5">Connect With Us on <br>Social Media</h1>
     
         <script src="https://embedsocial.com/js/iframe.js"></script>
@@ -216,7 +246,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-white">Home</a>
+                            <a href="index.html" class="text-white">Home</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -224,7 +254,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-white">About</a>
+                            <a href="AboutUs.html" class="text-white">About</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -240,7 +270,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
-                            <a href="#!" class="text-white">Memberships</a>
+                            <a href="Sponsor.html" class="text-white">Sponsorships</a>
                         </h6>
                     </div>
                     <!-- Grid column -->
@@ -286,18 +316,14 @@
                 <a href="" class="text-white me-4">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-google"></i>
-                </a>
+               
                 <a href="" class="text-white me-4">
                     <i class="fab fa-instagram"></i>
                 </a>
                 <a href="" class="text-white me-4">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-github"></i>
-                </a>
+               
             </section>
             <!-- Section: Social -->
         </div>
@@ -323,8 +349,37 @@
     </script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Check if the link is pointing to the same page
+                    if (this.pathname === window.location.pathname) {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+    
+                        // Store hash
+                        var hash = this.hash;
+    
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function() {
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    }
+                } // End if
+            });
+        });
+    </script>
+    
+
 </body>
 </html>

@@ -243,6 +243,15 @@ h4 {
     color: #ff0000;
     background-color: #f4f3ee;
 }
+.blank-fam{
+    color: #0026fa;
+    background-color: #f4f3ee;
+
+}
+.dropdown-item{
+    color: #ebe2cd;
+    margin-bottom: 10px;
+}
 .title2{
   font-size: 6rem;
 }
