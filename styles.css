@@ -223,7 +223,7 @@ h4 {
     border: none;
     transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
     background: red;
-    color: #000000;
+    color: #ffffff;
 }
 .Sponsor:hover {
     transform: translateY(-5px);
@@ -232,7 +232,9 @@ h4 {
     border-color:  rgb(177, 223, 161);
     color: rgb(255, 0, 0);
 }
-
+.ul{
+    text-align: left;
+}
 .Join:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px  rgb(0, 0, 0);
@@ -253,7 +255,7 @@ h4 {
     border: none;
     transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
     background: #0026fa;
-    color: #000000;
+    color: #ffffff;
 }
 
 .about p{
