@@ -258,6 +258,11 @@ h4 {
     color: #ffffff;
 }
 
+.socials{
+    width: 7vw;
+    object-fit: contain;
+    height: 100%;
+}
 .about p{
     text-align: left;
 }
